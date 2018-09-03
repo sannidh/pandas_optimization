@@ -1,0 +1,1 @@
+sum((list(map(lambda y:y**2, list(filter(lambda x: x%2==0, range(1,151))))))[7:])
